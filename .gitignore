@@ -1,0 +1,9 @@
+terraform.tfstate
+terraform.tfstate.backup
+.terraform*
+terraform.tfstate*
+*~
+
+# terraform generated secrets
+config-map-aws-auth*.yaml
+kubeconfig_*
